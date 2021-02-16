@@ -1,0 +1,60 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END RESET  */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* COMMON  */
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+/* END COMMON  */
+
+/* HEADER  */
+header {
+    height: 550px;
+    background-image: url(../img/background-header.png);
+    background-size: 900px;
+    background-color: #0c325a;
+    background-repeat: no-repeat;
+    background-position: 113% 100%;
+}
+
+.container {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* navbar  */
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* end navbar  */
+
+/* END HEADER  */
+
+/* MAIN  */
+/* END MAIN  */
+
+/* FOOTER  */
+/* END FOOTER  */
