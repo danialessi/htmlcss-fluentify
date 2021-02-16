@@ -35,6 +35,17 @@ body {
 .button.green {
     background-color: #7cbb05;
 }
+
+.grey-text {
+    color: #8d8d8d;
+}
+
+.main-columns {
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
 /* END COMMON  */
 
 /* HEADER  */
@@ -98,6 +109,48 @@ li a {
 /* END HEADER  */
 
 /* MAIN  */
+
+/* subtitle  */
+.grey-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #d3d3d3;
+}
+/* end of subtitle  */
+
+/* main columns  */
+.container-main-columns {
+    width: 80%;
+    margin: auto;
+}
+
+.left-col-image {
+    margin: 30px auto;
+    height: 215px;
+    width: 100%;
+    background-image: url(../img/profile.svg);
+    background-repeat: no-repeat;
+}
+
+.center-col-image {
+    margin: 30px auto;
+    height: 215px;
+    width: 100%;
+    background-image: url(../img/computer.svg);
+    background-repeat: no-repeat;
+}
+
+.right-col-image {
+    margin: 30px auto;
+    height: 199px;
+    width: 100%;
+    background-image: url(../img/doc.svg);
+    background-repeat: no-repeat;
+
+}
+
+/* end main columns  */
+
 /* END MAIN  */
 
 /* FOOTER  */
