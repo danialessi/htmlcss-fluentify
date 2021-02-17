@@ -134,13 +134,13 @@ li a {
 /* end of subtitle  */
 
 /* main columns  */
-.container-main-columns {
-    width: 80%;
-    margin: auto;
-}
 
 .left-col-image {
     background-image: url(../img/profile.svg);
+}
+
+.columns-center-margin {
+    margin: auto 5%;
 }
 
 .center-col-image {
