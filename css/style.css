@@ -11,7 +11,7 @@ body {
 }
 
 /* COMMON  */
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -22,11 +22,10 @@ body {
 }
 
 .button {
-    font-family: Roboto;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     text-transform: uppercase;
-    padding: 5px 20px;
+    padding: 8px 20px;
     background-color: #0c325a;
     border: 1px solid white;
     border-radius: 3px;
@@ -41,7 +40,7 @@ body {
 }
 
 .main-columns {
-    width: 33%;
+    width: 30%;
     text-align: center;
     float: left;
 }
@@ -56,6 +55,11 @@ body {
 
 .green-text {
     color: #7ebc08;
+}
+
+.col-text {
+    font-size: 14px;
+    line-height: 20px;
 }
 /* END COMMON  */
 
